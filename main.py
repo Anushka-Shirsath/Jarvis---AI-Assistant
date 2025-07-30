@@ -112,20 +112,20 @@ def main_process():
          pwk.sendwhatmsg("+910123456789", "Hi, How are you", 16, 44, 30) 
 
       # elif "send email" in request:
-      #     pwk.send_mail("anushkaks2004@gmail.com", user_config.gamil_password, "Hello", "Hello , How are you","anushirsath07@gmail.com") 
+      #     pwk.send_mail("anu@gmail.com", user_config.gamil_password, "Hello", "Hello , How are you","anushka@gmail.com") 
       #     speak("Email sent")
 
       elif "send email" in request:
           s = smtplib.SMTP('smtp.gmail.com', 587) 
           s.starttls()
-          s.login("anushirsath07@gmail.com", "axtf xnpn howd xhtr")  # App password
+          s.login("anushka@gmail.com", "axtf xnpn howd xhtr")  # App password
           message = """          
           This is the message.
    
           Thanks by Anushka.
           
           """
-          s.sendmail("anushirsath07@gmail.com", "anushkaks2004@gmail.com", message) 
+          s.sendmail("anushka@gmail.com", "anu@gmail.com", message) 
           s.quit()
           speak("Email sent")
 
