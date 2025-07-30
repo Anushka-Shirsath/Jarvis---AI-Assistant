@@ -1,0 +1,2 @@
+gmail_password = "abcdef"
+openai_key="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"
